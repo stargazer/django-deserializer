@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/stargazer/django-deserializer.png?branch=master)](https://travis-ci.org/stargazer/django-deserializer)
+[![Coverage Status](https://coveralls.io/repos/stargazer/django-deserializer/badge.png?branch=master)](https://coveralls.io/r/stargazer/django-deserializer?branch=master)
+[![Downloads](https://pypip.in/download/django-deserializer/badge.svg)](https://pypi.python.org/pypi/django-deserializer/)
+
 # Django Deserializer
 
 A Django Mixin capable of deserializing a request's body into python data
