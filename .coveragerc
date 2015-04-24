@@ -1,0 +1,16 @@
+[report]
+source = deserializer
+omit = 
+ eggs/* 
+ develop-eggs/* 
+ parts/*
+ build/*
+ dist/*
+ django_deserializer.egg-info/*
+ */site-packages/*
+ */distutils/*
+ bin/*
+ *.egg/*
+ setup.py
+ runtests.py
+ test_suite/*
