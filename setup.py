@@ -5,6 +5,8 @@ setup(
     packages=('deserializer',),
     author='C. Paschalides',
     author_email='already.late@gmail.com',
+    description='A Django Mixin capable of deserializing a request\'s body into python data structures.',
+    url='https://github.com/stargazer/django-deserializer/',
     license='WTFPL',
     version=0.1,
     install_requires=(
