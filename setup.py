@@ -8,7 +8,7 @@ setup(
     description='A Django Mixin capable of deserializing a request\'s body into python data structures.',
     url='https://github.com/stargazer/django-deserializer/',
     license='WTFPL',
-    version=0.1,
+    version=0.11,
     install_requires=(
         'Django',
     ),
