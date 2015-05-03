@@ -18,14 +18,14 @@ Tested in ``Python 2.7`` and ``Python 3.2`` against ``Django >= 1.5``.
 ## How to use
 
 Simply have your Class-Based View inherit from the
-``deserializer.mixins.DeserializerMixin``. From that point on, the view has
+``deserializer.mixins.DeserializationMixin``. From that point on, the view has
 inherited the ``deserialize`` method. When invoked, that method deserializes
 and returns the request's body.
 
-    from deserializer.mixins import DeserializerMixin
+    from deserializer.mixins import DeserializationMixin
     from django.views.generic.base import View
 
-    class MyView(View, DeserializerMixin):
+    class MyView(View, DeserializationMixin):
         def post(self, request, *args, **kwargs):
             body = self.deserialize()
 
